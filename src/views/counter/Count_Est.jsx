@@ -4,20 +4,20 @@ import {Link} from "react-router-dom";
 const count_Est = () => {
 
     return (
-       <div className ="align-items-start" style = {{width: "100%", height: "100%"}}>
-            <div class="container">
+       <div className ="align-items-start" style = {{width: "100%", height: "100%",marginTop: "2rem",marginBottom: "1.5rem"}}>
+            <div class="container ">
                 {/* Fila de: Nombre de los personajes */}
-                <div class="row text-center">
-                    <div class="col-3 border border-dark border-2">
+                <div class="row text-center border border-dark border-3">
+                    <div class="col-3 border border-dark border-3">
                         <h1>Mario</h1>
                     </div>
-                    <div class="col-3 border border-dark border-2">
+                    <div class="col-3 border border-dark border-3">
                          <h1>Luigi</h1>
                     </div>
-                    <div class="col-3 border border-dark border-2">
+                    <div class="col-3 border border-dark border-3">
                          <h1>peach</h1>
                     </div>
-                    <div class="col-3 border border-dark border-2">
+                    <div class="col-3 border border-dark border-3">
                          <h1>daysi</h1>
                     </div>
                 </div>
@@ -25,75 +25,75 @@ const count_Est = () => {
 
                {/* Fila de: botones de victorias o casillas especiales */}
                 <div class="row text-center">
-                    <div class="col-3 border border-dark border-2">
+                    <div class="col-3 border border-dark border-3">
                         <div class = "row">
-                            <div class = "col-8 border-end border-dark border-2 ">
-                                <button class="btn btn-light border border-dark">Add minigame win</button>
+                            <div class = "col-8 border-end border-dark border-3 ">
+                                <button class="btn btn-light border border-dark" id="btn-win-p1">Add minigame win</button>
                             </div>
-                            <div class="col-4  ">
-                                <button class="btn btn-light border border-dark">Undo</button>
+                            <div class="col-4">
+                                <button class="btn btn-light border border-dark" id="btn-remove-win-p1">Undo</button>
                             </div>
                         </div>
                         <div class = "row">
-                           <div class = "col-8 border-end border-dark border-2 ">
-                                <button class="btn btn-light border border-dark ps-3 pe-3">Add Event spaces</button>
+                           <div class = "col-8 border-end border-dark border-3 ">
+                                <button class="btn btn-light border border-dark ps-3 pe-3" id="btn-event-p1">Add Event spaces</button>
                             </div>
                             <div class="col-4 ">
-                                <button class="btn btn-light border border-dark">Undo</button>
+                                <button class="btn btn-light border border-dark" id="btn-remove-event-p1">Undo</button>
                             </div>
                         </div> 
                     </div>
-                    <div class="col-3 border border-dark border-2">
+                    <div class="col-3 border border-dark border-3">
                          <div class = "row">
-                            <div class = "col-8 col-8 border-end border-dark border-2 ">
-                                <button class="btn btn-light border border-dark">Add minigame win</button>
+                            <div class = "col-8 col-8 border-end border-dark border-3 " >
+                                <button class="btn btn-light border border-dark" id="btn-win-p2">Add minigame win</button>
                             </div>
                             <div class="col-4 ">
-                                <button class="btn btn-light border border-dark">Undo</button>
+                                <button class="btn btn-light border border-dark" id="btn-remove-win-p2">Undo</button>
                             </div>
                         </div>
                         <div class = "row">
-                           <div class = " col-8 border-end border-dark border-2 ">
-                               <button class="btn btn-light border border-dark ps-3 pe-3">Add Event spaces</button>
+                           <div class = " col-8 border-end border-dark border-3 ">
+                               <button class="btn btn-light border border-dark ps-3 pe-3" id="btn-event-p2">Add Event spaces</button>
                             </div>
                             <div class="col-4 ">
-                                <button class="btn btn-light border border-dark">Undo</button>
+                                <button class="btn btn-light border border-dark" id="btn-remove-event-p2">Undo</button>
                             </div>
                         </div> 
                     </div>
-                    <div class="col-3 border border-dark border-2">
+                    <div class="col-3 border border-dark border-3">
                        <div class = "row">
-                            <div class = " col-8 border-end border-dark border-2 ">
-                                <button class="btn btn-light border border-dark">Add minigame win</button>
+                            <div class = " col-8 border-end border-dark border-3 ">
+                                <button class="btn btn-light border border-dark" id="btn-win-p3">Add minigame win</button>
                             </div>
                             <div class="col-4 ">
-                                <button class="btn btn-light border border-dark">Undo</button>
+                                <button class="btn btn-light border border-dark" id="btn-remove-win-p3">Undo</button>
                             </div>
                         </div>
                         <div class = "row">
-                           <div class = "col-8 border-end border-dark border-2 ">
-                                <button class="btn btn-light border border-dark ps-3 pe-3">Add Event spaces</button>
+                           <div class = "col-8 border-end border-dark border-3 ">
+                                <button class="btn btn-light border border-dark ps-3 pe-3" id="btn-event-p3">Add Event spaces</button>
                             </div>
                             <div class="col-4 ">
-                                <button class="btn btn-light border border-dark">Undo</button>
+                                <button class="btn btn-light border border-dark" id="btn-remove-event-p3">Undo</button>
                             </div>
                         </div> 
                     </div>
-                    <div class="col-3 border border-dark border-2">
+                    <div class="col-3 border border-dark border-3">
                          <div class = "row">
-                            <div class = "col-8 border-end border-dark border-2  ">
-                                <button class="btn btn-light border border-dark">Add minigame win</button>
+                            <div class = "col-8 border-end border-dark border-3  ">
+                                <button class="btn btn-light border border-dark" id="btn-win-p4">Add minigame win</button>
                             </div>
                             <div class="col-4 ">
-                                <button class="btn btn-light border border-dark">Undo</button>
+                                <button class="btn btn-light border border-dark" id="btn-remove-win-p4">Undo</button>
                             </div>
                         </div>
                         <div class = "row">
-                           <div class = "col-8 border-end border-dark border-2 ">
-                                <button class="btn btn-light border border-dark ps-3 pe-3">Add Event spaces</button>
+                           <div class = "col-8 border-end border-dark border-3 ">
+                                <button class="btn btn-light border border-dark ps-3 pe-3" id="btn-event-p4">Add Event spaces</button>
                             </div>
                             <div class="col-4 ">
-                                <button class="btn btn-light border border-dark">Undo</button>
+                                <button class="btn btn-light border border-dark" id="btn-remove-event-p4">Undo</button>
                             </div>
                         </div> 
                     </div>
@@ -101,62 +101,62 @@ const count_Est = () => {
             {/* Final de: Fila para añadir wins o casillas especiales */}
             {/*Fila de: Botones para añadir Monedas */}
                <div class="row text-center">
-                    <div class="col-3 border border-dark border-2">
-                        <div class="row">
-                            <div class="col-5 border border-dark">
-                            <button class="btn btn-light border border-dark pe-3 ps-3"> 12 coins</button>
-                            <button class="btn btn-light border border-dark ps-4 pe-4"> 6 coin</button>
-                            <button class="btn btn-light border border-dark ps-4 pe-4"> 3 coin</button>
+                    <div class="col-3">
+                        <div class="row border border-dark border-3">
+                            <div class="col-5 border-end border-dark border-3">
+                            <button class="btn btn-light border border-dark pe-3 ps-3 add-Coin-p1" > 12 coins</button>
+                            <button class="btn btn-light border border-dark ps-4 pe-4 add-Coin-p1" > 6 coin</button>
+                            <button class="btn btn-light border border-dark ps-4 pe-4 add-Coin-p1" > 3 coin</button>
                         </div>
-                        <div class="col-7 border border-dark aling-items-center justify-content-center d-flex flex-column">
+                        <div class="col-7  aling-items-center justify-content-center d-flex flex-column">
 
                             <input type="number" class= "form-control form-control-sm text-center mt-2" placeholder="0"/>
-                            <button class="btn btn-sm btn-light border border-dark ps-4 pe-4"> Add custom</button>
+                            <button class="btn btn-sm btn-light border border-dark ps-4 pe-4" id="btn-custom-1"> Add custom</button>
       
                         </div>
                         </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
-                         <div class="row">
-                            <div class="col-5 border border-dark">
-                            <button class="btn btn-light border border-dark pe-3 ps-3"> 12 coins</button>
-                            <button class="btn btn-light border border-dark ps-4 pe-4"> 6 coin</button>
-                            <button class="btn btn-light border border-dark ps-4 pe-4"> 3 coin</button>
+                    <div class="col-3 ">
+                         <div class="row border border-dark border-3">
+                            <div class="col-5 border-end border-dark border-3">
+                            <button class="btn btn-light border border-dark pe-3 ps-3 add-Coin-p2" > 12 coins</button>
+                            <button class="btn btn-light border border-dark ps-4 pe-4 add-Coin-p2" > 6 coin</button>
+                            <button class="btn btn-light border border-dark ps-4 pe-4 add-Coin-p2" > 3 coin</button>
                         </div>
-                        <div class="col-7 border border-dark aling-items-center justify-content-center d-flex flex-column">
+                        <div class="col-7 aling-items-center justify-content-center d-flex flex-column">
 
                             <input type="number" class= "form-control form-control-sm text-center mt-2" placeholder="0"/>
-                            <button class="btn btn-sm btn-light border border-dark ps-4 pe-4"> Add custom</button>
+                            <button class="btn btn-sm btn-light border border-dark ps-4 pe-4"  id="btn-custom-2"> Add custom</button>
       
                         </div>
                         </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
-                         <div class="row">
-                            <div class="col-5 border border-dark">
-                            <button class="btn btn-light border border-dark pe-3 ps-3"> 12 coins</button>
-                            <button class="btn btn-light border border-dark ps-4 pe-4"> 6 coin</button>
-                            <button class="btn btn-light border border-dark ps-4 pe-4"> 3 coin</button>
+                    <div class="col-3 ">
+                         <div class="row border border-dark border-3">
+                            <div class="col-5 border-end border-dark border-3">
+                            <button class="btn btn-light border border-dark pe-3 ps-3 add-Coin-p3" > 12 coins</button>
+                            <button class="btn btn-light border border-dark ps-4 pe-4 add-Coin-p3" > 6 coin</button>
+                            <button class="btn btn-light border border-dark ps-4 pe-4 add-Coin-p3" > 3 coin</button>
                         </div>
-                        <div class="col-7 border border-dark aling-items-center justify-content-center d-flex flex-column">
+                        <div class="col-7 aling-items-center justify-content-center d-flex flex-column">
 
                             <input type="number" class= "form-control form-control-sm text-center mt-2" placeholder="0"/>
-                            <button class="btn btn-sm btn-light border border-dark ps-4 pe-4"> Add custom</button>
+                            <button class="btn btn-sm btn-light border border-dark ps-4 pe-4 " id="btn-custom-3"> Add custom</button>
       
                         </div>
                         </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
-                         <div class="row">
-                            <div class="col-5 border border-dark">
-                            <button class="btn btn-light border border-dark pe-3 ps-3"> 12 coins</button>
-                            <button class="btn btn-light border border-dark ps-4 pe-4"> 6 coin</button>
-                            <button class="btn btn-light border border-dark ps-4 pe-4"> 3 coin</button>
+                    <div class="col-3 ">
+                         <div class="row border border-dark border-3">
+                            <div class="col-5 border-end border-dark border-3">
+                            <button class="btn btn-light border border-dark pe-3 ps-3 add-Coin-p4" > 12 coins</button>
+                            <button class="btn btn-light border border-dark ps-4 pe-4 add-Coin-p4" > 6 coin</button>
+                            <button class="btn btn-light border border-dark ps-4 pe-4 add-Coin-p4" > 3 coin</button>
                         </div>
-                        <div class="col-7 border border-dark aling-items-center justify-content-center d-flex flex-column">
+                        <div class="col-7  aling-items-center justify-content-center d-flex flex-column">
 
                             <input type="number" class= "form-control form-control-sm text-center mt-2" placeholder="0"/>
-                            <button class="btn btn-sm btn-light border border-dark ps-4 pe-4"> Add custom</button>
+                            <button class="btn btn-sm btn-light border border-dark ps-4 pe-4" id="btn-custom-3"> Add custom</button>
       
                         </div>
                         </div>
@@ -165,9 +165,9 @@ const count_Est = () => {
                 {/* Final de: Fila para añadir monedas */}
                 {/* Fila de: puntaje */}
                 <div class="row text-center">
-                    <div class="col-3 border border-dark border-2">
+                    <div class="col-3 border border-dark border-3">
                         <div class ="row">
-                            <div class="col-7 gap-2 text-start border-end border-dark border-2"> 
+                            <div class="col-7 gap-2 text-start border-end border-dark border-3"> 
                                 <h5>Minigame won:</h5>
                                 <h5>Event spaces:</h5>
                                 <h5>Totals coins:</h5>
@@ -180,9 +180,9 @@ const count_Est = () => {
 
                         </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
+                    <div class="col-3 border border-dark border-3">
                          <div class ="row">
-                            <div class="col-7 gap-2 text-start border-end border-dark border-2"> 
+                            <div class="col-7 gap-2 text-start border-end border-dark border-3"> 
                                 <h5>Minigame won:</h5>
                                 <h5>Event spaces:</h5>
                                 <h5>Totals coins:</h5>
@@ -195,9 +195,9 @@ const count_Est = () => {
 
                         </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
+                    <div class="col-3 border border-dark border-3">
                          <div class ="row">
-                            <div class="col-7 gap-2 text-start border-end border-dark border-2"> 
+                            <div class="col-7 gap-2 text-start border-end border-dark border-3"> 
                                 <h5>Minigame won:</h5>
                                 <h5>Event spaces:</h5>
                                 <h5>Totals coins:</h5>
@@ -210,9 +210,9 @@ const count_Est = () => {
 
                         </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
+                    <div class="col-3 border border-dark border-3">
                         <div class ="row">
-                            <div class="col-7 gap-2 text-start border-end border-dark border-2"> 
+                            <div class="col-7 gap-2 text-start border-end border-dark border-3"> 
                                 <h5>Minigame won:</h5>
                                 <h5>Event spaces:</h5>
                                 <h5>Totals coins:</h5>
@@ -229,66 +229,68 @@ const count_Est = () => {
                 {/* Final de: Fila de puntaje */}
                 {/* Fila de: Iconos */}
                 <div class="row text-center">
-                    <div class="col-3 border border-dark border-2">
-                       <div class="row">
-                        <div class="col-4 border border-dark border-2"><h5>minijuego</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5>casillas especiales</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5>monedas</h5></div>
+                    <div class="col-3">
+                       <div class="row border border-dark border-3">
+                        <div class="col-4 border-end border-dark border-3"><h5>minijuego</h5></div>
+                        <div class="col-4 border-end border-dark border-3"><h5>casillas especiales</h5></div>
+                        <div class="col-4 "><h5>monedas</h5></div>
                        </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
-                        <div class="row">
-                        <div class="col-4 border border-dark border-2"><h5>minijuego</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5>casillas especiales</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5>monedas</h5></div>
+                    <div class="col-3">
+                       <div class="row border border-dark border-3">
+                        <div class="col-4 border-end border-dark border-3"><h5>minijuego</h5></div>
+                        <div class="col-4 border-end border-dark border-3"><h5>casillas especiales</h5></div>
+                        <div class="col-4 "><h5>monedas</h5></div>
                        </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
-                        <div class="row">
-                        <div class="col-4 border border-dark border-2"><h5>minijuego</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5>casillas especiales</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5>monedas</h5></div>
+                    <div class="col-3">
+                       <div class="row border border-dark border-3">
+                        <div class="col-4 border-end border-dark border-3"><h5>minijuego</h5></div>
+                        <div class="col-4 border-end border-dark border-3"><h5>casillas especiales</h5></div>
+                        <div class="col-4 "><h5>monedas</h5></div>
                        </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
-                        <div class="row">
-                        <div class="col-4 border border-dark border-2"><h5>minijuego</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5>casillas especiales</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5>monedas</h5></div>
+                    <div class="col-3">
+                       <div class="row border border-dark border-3">
+                        <div class="col-4 border-end border-dark border-3"><h5>minijuego</h5></div>
+                        <div class="col-4 border-end border-dark border-3"><h5>casillas especiales</h5></div>
+                        <div class="col-4 "><h5>monedas</h5></div>
                        </div>
                     </div>
+                    
+                    
 
 
                 </div>
                 {/* Final de: Fila de Iconos */}
                 {/*  Fila de: Posicion */}
                 <div class="row text-center">
-                    <div class="col-3 border border-dark border-2">
-                       <div class="row">
-                        <div class="col-4 border border-dark border-2"><h5 id="score-Mg-P1">1</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5 id="score-ES-P1">3</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5 id="score-Coins-P1">2</h5></div>
+                    <div class="col-3">
+                       <div class="row border border-dark border-3">
+                        <div class="col-4 border-end border-dark border-3"><h5 id="score-Mg-P1">1</h5></div>
+                        <div class="col-4 border-end border-dark border-3"><h5 id="score-ES-P1">3</h5></div>
+                        <div class="col-4"><h5 id="score-Coins-P1">2</h5></div>
                        </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
-                        <div class="row">
-                        <div class="col-4 border border-dark border-2"><h5 id="score-Mg-P2">3</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5 id="score-ES-P2">2</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5 id="score-Coins-P2">1</h5></div>
+                    <div class="col-3">
+                        <div class="row border border-dark border-3">
+                        <div class="col-4 border-end border-dark border-3"><h5 id="score-Mg-P2">3</h5></div>
+                        <div class="col-4 border-end border-dark border-3"><h5 id="score-ES-P2">2</h5></div>
+                        <div class="col-4"><h5 id="score-Coins-P2">1</h5></div>
                        </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
-                        <div class="row">
-                        <div class="col-4 border border-dark border-2"><h5 id="score-Mg-P3">2</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5 id="score-ES-P3">1</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5 id="score-Coins-P3">3</h5></div>
+                    <div class="col-3">
+                        <div class="row border border-dark border-3">
+                        <div class="col-4 border-end border-dark border-3"><h5 id="score-Mg-P3">2</h5></div>
+                        <div class="col-4 border-end border-dark border-3"><h5 id="score-ES-P3">1</h5></div>
+                        <div class="col-4 "><h5 id="score-Coins-P3">3</h5></div>
                        </div>
                     </div>
-                    <div class="col-3 border border-dark border-2">
-                        <div class="row">
-                        <div class="col-4 border border-dark border-2"><h5 id="score-Mg-P4">4</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5 id="score-ES-P4">4</h5></div>
-                        <div class="col-4 border border-dark border-2"><h5 id="score-Coins-P4">4</h5></div>
+                    <div class="col-3">
+                        <div class="row border border-dark border-3">
+                        <div class="col-4 border-end border-dark border-3"><h5 id="score-Mg-P4">4</h5></div>
+                        <div class="col-4 border-end border-dark border-3"><h5 id="score-ES-P4">4</h5></div>
+                        <div class="col-4 "><h5 id="score-Coins-P4">4</h5></div>
                        </div>
                     </div>
 

@@ -26,7 +26,7 @@ const home = () => {
     <div className="col-6 d-flex flex-column align-items-center justify-content-center p-5" style ={{marginTop:"-3.9rem"}}>
       <Link to =  "/">
       <img src= "https://iconape.com/wp-content/png_logo_vector/super-mario-party-logo.png" 
-      style ={{width: "auto",maxwidth: "100%", height: "12rem"}} 
+      style ={{width: "auto",maxwidth: "100%", height: "12.5rem"}} 
       alt="Mario Party Logo">
       </img>
       </Link>
