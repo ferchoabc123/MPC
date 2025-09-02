@@ -3,7 +3,8 @@ import Home from './views/home/home';
 import Navbar from './views/components/Navbar';
 import Footer from './views/components/Footer';
 import ModeJam from './views/options/ModeJam';
-import Count_Est from './views/counter/Count_Est';
+import Scoreboard from './views/counter/Scoreboard';
+
 
 
 
@@ -16,7 +17,7 @@ function App() {
       
       <Route path="/" element={<Home />} />
       <Route path="/mode" element={<ModeJam/>}/>
-      <Route path="/CountEst" element={<Count_Est/>}/>
+      <Route path="/CountEst" element={<Scoreboard/>}/>
 
 
     </Routes>
