@@ -10,7 +10,7 @@ import Scoreboard from './views/counter/Scoreboard.jsx';
 
 function App() {
   return(
-  <Router >
+  <Router basename = "/MPC/">
     <Navbar />
     
     <Routes >
