@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router';
-import Home from './views/home/home';
-import Navbar from './views/components/Navbar';
-import Footer from './views/components/Footer';
-import ModeJam from './views/options/ModeJam';
-import Scoreboard from './views/counter/Scoreboard';
+import Home from './views/home/Home.jsx';
+import Navbar from './views/components/Navbar.jsx';
+import Footer from './views/components/Footer.jsx';
+import ModeJam from './views/options/ModeJam.jsx';
+import Scoreboard from './views/counter/Scoreboard.jsx';
 
 
 

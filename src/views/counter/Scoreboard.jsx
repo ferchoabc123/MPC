@@ -91,7 +91,7 @@ const handleAddCustom = (id) => {
         </div>
         <hr />
 
-        {/* Fila de Botones para añadir Monedas */}
+        {/* Fila de Botones para añadir Monedas :: utilizando .map se va construyendo la fila para cada jugador */}
         <div className="row text-center">
           {jugadores.map((jugador) => (
             <div className="col-3 border border-dark border-3" key={jugador.id}>
