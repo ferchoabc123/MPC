@@ -17,7 +17,7 @@ function App() {
       
       <Route path="/" element={<Home />} />
       <Route path="/mode" element={<ModeJam/>}/>
-      <Route path="/CountEst" element={<Scoreboard/>}/>
+      <Route path="/countEst" element={<Scoreboard/>}/>
 
 
     </Routes>
